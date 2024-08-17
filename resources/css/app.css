@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Moderustic:wght@300..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Moderustic", sans-serif;
+}
+
+@font-face {
+    font-family: 'gunterz-black';
+    src: url('../fonts/gunterz-black.otf');
+}
+
+@font-face {
+    font-family: 'helotype';
+    src: url('../fonts/helotypo.ttf');
+}
+
+h1, h2, h3, h4, button, .link, strong{
+    font-family: 'gunterz-black';
+    @apply font-semibold;
+}
+
+.header{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.9374124649859944) 0%, rgba(0,0,0,0) 100%);
+}
