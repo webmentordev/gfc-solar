@@ -7,8 +7,12 @@
         <div class="flex justify-between">
             <div class="text-start">
                 <h4 class="text-primary mb-4">Contact Us</h4>
-                <p>contact@gfc-europe.eu</p>
-                <p>Dörpfeld Straße 10 12489 Berlin, Germany</p>
+                <p class="flex mb-2"><img src="https://api.iconify.design/twemoji:envelope.svg" alt="Envelope Logo"
+                        width="20" class="mr-2">contact@gfc-europe.eu</p>
+                <p class="flex mb-2"><img src="https://api.iconify.design/fluent-emoji:call-me-hand.svg"
+                        alt="Phone Logo" width="20" class="mr-2">+49 (0) 176 – 831 96 282</p>
+                <p class="flex mb-4"><img src="https://api.iconify.design/logos:google-maps.svg" alt="Address Logo"
+                        width="15" class="mr-2">Dörpfeld Straße 10 12489 Berlin, Germany</p>
                 <div class="flex mt-2">
                     <a href="#" class="mr-4" rel="nofollow" target="_blank">
                         <img src="https://api.iconify.design/skill-icons:linkedin.svg?color=%23e53206" alt="LinkedIN"
