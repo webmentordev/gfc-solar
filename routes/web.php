@@ -14,7 +14,7 @@ Route::get('/projekt/65-mw-solar-projekt-in-dautchland', function () {
     return view('65-mw');
 })->name('65-mw');
 
-Route::get('/projekt/730-kw-solar-projekt-in-dautchland', function () {
+Route::get('/projekt/730-kw-roof-solar-projekt-in-dautchland', function () {
     return view('730-kw');
 })->name('730-kw');
 

@@ -3,10 +3,11 @@
         <a href="{{ route('home') }}" class="flex items-center font-normal text-2xl link">
             GFC EUROPE
         </a>
-        <ul class="flex items-center font-semibold">
+        <ul class="flex items-center font-semibold 1080px:hidden">
             <a href="#"
                 class="px-5 @if (request()->routeIs('home')) text-dark @else text-gray-500 @endif">Startseite</a>
-            <a href="#" class="px-5 @if (request()->routeIs('about')) text-dark @else text-gray-500 @endif">Über
+            <a href="{{ route('home') }}#about-us"
+                class="px-5 @if (request()->routeIs('home')) text-dark @else text-gray-500 @endif">Über
                 uns</a>
             <div class="flex items-center relative px-5 group">
                 <a href="#"
@@ -33,7 +34,20 @@
         </ul>
 
         <a href="#"
-            class="border border-gray-600 bg-black text-white py-2 rounded-full px-4 font-bold hover:bg-white hover:text-dark transition-all">Kontaktieren
-            Sie uns</a>
+            class="border border-gray-600 bg-black text-white py-2 rounded-full px-4 font-bold hover:bg-white hover:text-dark transition-all 1080px:hidden">Kontakt</a>
+
+        <div class="hidden 1080px:block relative" x-data="{ open: false }">
+            <img src="https://api.iconify.design/gravity-ui:bars-descending-align-right.svg?color=%23212121"
+                alt="Align Logo" width="35" class="cursor-pointer" x-on:click="open = !open">
+            <ul class="w-[200px] bg-white rounded-lg p-2 font-semibold absolute top-8 right-0 flex flex-col border border-gray-100 shadow-xl"
+                x-show="open">
+                <a class="mb-1 p-2 border-b border-gray-100" href="#">Startseite</a>
+                <a class="mb-1 p-2 border-b border-gray-100" href="#">Über uns</a>
+                <a class="mb-1 p-2 border-b border-gray-100" href="#">Projekte</a>
+                <a class="mb-1 p-2 border-b border-gray-100" href="#">Dienstleistungen</a>
+                <a class="mb-1 p-2 border-b border-gray-100" href="#">Team</a>
+                <a class="p-1" href="#">Kontakt</a>
+            </ul>
+        </div>
     </div>
 </nav>

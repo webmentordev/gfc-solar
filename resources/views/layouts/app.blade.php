@@ -12,6 +12,7 @@
         integrity="sha512-q583ppKrCRc7N5O0n2nzUiJ+suUv7Et1JGels4bXOaMFQcamPk9HjdUknZuuFjBNs7tsMuadge5k9RzdmO+1GQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     @vite('resources/css/app.css')
+    <script src="https://unpkg.com/alpinejs" defer></script>
 </head>
 
 <body>

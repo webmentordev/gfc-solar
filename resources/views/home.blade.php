@@ -48,7 +48,7 @@
         </div>
     </section>
 
-    <section class="w-full py-[60px] px-6 bg-gray-50">
+    <section class="w-full py-[60px] px-6 bg-gray-50" id="about-us">
         <div class="max-w-[90%] m-auto">
             <div class="grid grid-cols-3 gap-7">
                 <div class="p-6 col-span-2">
@@ -120,9 +120,9 @@
     <section class="w-full h-[400px] bg-cover bg-center relative flex items-center justify-center"
         style="background-image: url({{ asset('assets/home-with-solar-panels-banner-2.jpg') }})">
         <div class="header top-0 left-0 absolute w-full h-full"></div>
-        <h2 class="text-white text-[70px] leading-[80px] relative z-10 text-center">We Build <strong
-                class="link text-primary">Solar
-                Parks <br></strong> on Free Land </h2>
+        <h2 class="text-white text-[70px] leading-[80px] relative z-10 text-center">Wir bauen
+            <strong class="link text-primary">Solarparks <br></strong> auf freiem Land
+        </h2>
     </section>
 
 
