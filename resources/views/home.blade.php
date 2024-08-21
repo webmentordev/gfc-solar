@@ -7,13 +7,13 @@
             <div class="max-w-7xl m-auto px-4 py-6 relative z-10 flex flex-col justify-center h-[670px]">
                 <div class="w-full" data-aos="fade-up" data-aos-duration="1000">
                     <h1 class="text-6xl text-white capitalize text-center leading-[75px] ">
-                        Transformierende Energie, Natur bewahren,
-                        Unser Solarversprechen
+                        GFC Europe Experten für Solarpark Planung und Bauleitung
                     </h1>
-                    <p class="text-center text-white">Der Umstieg auf Solarenergie war noch nie so einfach. GFC Europe bietet
-                        eine Vielzahl von Solar-Lösungen an, <br> die darauf ausgelegt sind, Ihren Übergang zu sauberer
-                        Energie
-                        reibungslos zu gestalten.</p>
+                    <p class="text-center text-white">
+                        Willkommen bei GFC Europe, Ihrem Partner für die Planung und Entwicklung von Freiflächen-Solarparks
+                        in ganz Deutschland. Unser Ziel ist es, <br> ungenutztes Land in profitable und nachhaltige
+                        Energiequellen zu verwandeln und so einen Beitrag zu einer grüneren Zukunft zu leisten.
+                    </p>
                 </div>
             </div>
             <div class="flex justify-between relative z-10 px-6">

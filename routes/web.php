@@ -21,3 +21,7 @@ Route::get('/projekt/730-kw-roof-solar-projekt-in-dautchland', function () {
 Route::get('/projekt/750-kw-solar-projekt-in-dautchland', function () {
     return view('750-kw');
 })->name('750-kw');
+
+Route::get('/impressum-datenschutzerklärung', function () {
+    return view('imprint');
+})->name('imprint');

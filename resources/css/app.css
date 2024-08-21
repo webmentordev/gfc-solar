@@ -18,10 +18,21 @@
     src: url('../fonts/helotypo.ttf');
 }
 
+@font-face {
+    font-family: 'gendy';
+    src: url('../fonts/gendy.otf');
+}
+
+
 h1, h2, h3, h4, button, .link, strong{
     font-family: 'gunterz-black';
     @apply font-semibold;
 }
+
+.imprint-heading, .imprint h1, .imprint h2,.imprint h3,.imprint h4{
+    font-family: 'gendy';
+}
+
 
 .header{
     background: rgb(0,0,0);

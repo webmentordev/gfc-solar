@@ -8,7 +8,7 @@
             <div class="text-start">
                 <h4 class="text-primary mb-4">Kontakt</h4>
                 <p class="flex mb-2"><img src="https://api.iconify.design/twemoji:envelope.svg" alt="Envelope Logo"
-                        width="20" class="mr-2">contact@gfc-europe.eu</p>
+                        width="20" class="mr-2">info@gfc-europe.eu</p>
                 <p class="flex mb-2"><img src="https://api.iconify.design/fluent-emoji:call-me-hand.svg"
                         alt="Phone Logo" width="20" class="mr-2">+49 (0) 176 – 831 96 282</p>
                 <p class="flex mb-4"><img src="https://api.iconify.design/logos:google-maps.svg" alt="Address Logo"
