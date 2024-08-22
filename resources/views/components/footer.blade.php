@@ -27,19 +27,22 @@
             <div class="text-center">
                 <h4 class="text-primary mb-4">Rechtliches</h4>
                 <ul class="flex flex-col justify-center">
-                    <a href="#" class="mb-3 hover:text-primary transition-all">Datenschutzrichtlinie</a>
-                    <a href="#" class="mb-3 hover:text-primary transition-all">Allgemeine Geschäftsbedingungen</a>
-                    <a href="#" class=" hover:text-primary transition-all">Impressum</a>
+                    <a href="{{ route('imprint') }}"
+                        class="mb-3 hover:text-primary transition-all">Datenschutzrichtlinie</a>
+                    <a href="{{ route('imprint') }}" class="mb-3 hover:text-primary transition-all">Allgemeine
+                        Geschäftsbedingungen</a>
+                    <a href="{{ route('imprint') }}" class=" hover:text-primary transition-all">Impressum</a>
                 </ul>
             </div>
             <div class="text-end">
                 <h4 class="text-primary mb-4">Navigation</h4>
                 <ul class="flex flex-col justify-center">
-                    <a href="#" class="mb-3 hover:text-primary transition-all">Startseite</a>
-                    <a href="#" class="mb-3 hover:text-primary transition-all">Über uns</a>
-                    <a href="#" class="mb-3 hover:text-primary transition-all">Projekte</a>
-                    <a href="#" class="mb-3 hover:text-primary transition-all">Dienstleistungen</a>
-                    <a href="#" class=" hover:text-primary transition-all">Team</a>
+                    <a href="{{ route('home') }}" class="mb-3 hover:text-primary transition-all">Startseite</a>
+                    <a href="{{ route('home') }}#uberuns" class="mb-3 hover:text-primary transition-all">Über uns</a>
+                    <a href="{{ route('home') }}#projekte" class="mb-3 hover:text-primary transition-all">Projekte</a>
+                    <a href="{{ route('home') }}#dienstleistungen"
+                        class="mb-3 hover:text-primary transition-all">Dienstleistungen</a>
+                    <a href="{{ route('home') }}#team" class=" hover:text-primary transition-all">Team</a>
                 </ul>
             </div>
         </div>

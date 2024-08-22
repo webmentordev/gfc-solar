@@ -4,13 +4,13 @@
             GFC EUROPE
         </a>
         <ul class="flex items-center font-semibold 1080px:hidden">
-            <a href="#"
+            <a href="{{ route('home') }}#team"
                 class="px-5 @if (request()->routeIs('home')) text-dark @else text-gray-500 @endif">Startseite</a>
-            <a href="{{ route('home') }}#about-us"
+            <a href="{{ route('home') }}#uberuns"
                 class="px-5 @if (request()->routeIs('home')) text-dark @else text-gray-500 @endif">Über
                 uns</a>
             <div class="flex items-center relative px-5 group">
-                <a href="#"
+                <a href="{{ route('home') }}#projekte"
                     class="mr-2 @if (request()->routeIs('projects')) text-dark @else text-gray-500 @endif">Projekte</a>
                 <img src="https://api.iconify.design/ic:outline-keyboard-arrow-down.svg?color=%232b2b2b"
                     alt="Carot down">
@@ -27,9 +27,9 @@
                     </ul>
                 </div>
             </div>
-            <a href="#"
+            <a href="{{ route('home') }}#dienstleistungen"
                 class="px-5 @if (request()->routeIs('services')) text-dark @else text-gray-500 @endif">Dienstleistungen</a>
-            <a href="#"
+            <a href="{{ route('home') }}#team"
                 class="px-5 @if (request()->routeIs('team')) text-dark @else text-gray-500 @endif">Team</a>
         </ul>
 
@@ -41,11 +41,12 @@
                 alt="Align Logo" width="35" class="cursor-pointer" x-on:click="open = !open">
             <ul class="w-[200px] bg-white rounded-lg p-2 font-semibold absolute top-8 right-0 flex flex-col border border-gray-100 shadow-xl"
                 x-show="open">
-                <a class="mb-1 p-2 border-b border-gray-100" href="#">Startseite</a>
-                <a class="mb-1 p-2 border-b border-gray-100" href="#">Über uns</a>
-                <a class="mb-1 p-2 border-b border-gray-100" href="#">Projekte</a>
-                <a class="mb-1 p-2 border-b border-gray-100" href="#">Dienstleistungen</a>
-                <a class="mb-1 p-2 border-b border-gray-100" href="#">Team</a>
+                <a class="mb-1 p-2 border-b border-gray-100" href="{{ route('home') }}">Startseite</a>
+                <a class="mb-1 p-2 border-b border-gray-100" href="{{ route('home') }}#uberuns">Über uns</a>
+                <a class="mb-1 p-2 border-b border-gray-100" href="{{ route('home') }}#projekte">Projekte</a>
+                <a class="mb-1 p-2 border-b border-gray-100"
+                    href="{{ route('home') }}#dienstleistungen">Dienstleistungen</a>
+                <a class="mb-1 p-2 border-b border-gray-100" href="{{ route('home') }}#team">Team</a>
                 <a class="p-1" href="#">Kontakt</a>
             </ul>
         </div>
