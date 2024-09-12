@@ -1,15 +1,16 @@
 @extends('layouts.app')
 @section('content')
     <section class="w-full h-[500px] 510px:h-[350px] bg-cover bg-center relative flex items-center justify-center"
-        style="background-image: url({{ asset('assets/750-killo-watt-solar-plant-in-deutschland.jpg') }})">
+        style="background-image: url({{ asset('assets/761-killo-watt-solar-plant-in-deutschland.jpg') }})">
         <div class="header top-0 left-0 absolute w-full h-full"></div>
         <div class="text-center relative z-10">
             <h2 class="text-white text-[70px] leading-[80px] 920px:text-6xl 770px:text-4xl 510px:text-3xl 400px:text-xl">
-                <strong class="link text-primary">750 Killowatt
+                <strong class="link text-primary">761 KWP
                     <br></strong>
-                Solarprojekt in Deutschland</h2>
-            <p class="text-white font-semibold">GFC EUROPEs größtes 750-Killowatt-Projekt auf dem großen Freiland in
-                Deutschland</p>
+                Solarprojekt in Deutschland
+            </h2>
+            <p class="text-white font-semibold">GFC EUROPEs größtes 761-Killowatt-Projekt auf dem großen Freiland in
+                Deutschland. <br> Das Projekt umfasst insgesamt 11 Wechselrichter, 1 Transformator und 1.856 Module.</p>
         </div>
     </section>
 

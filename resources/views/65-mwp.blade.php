@@ -5,11 +5,13 @@
         <div class="header top-0 left-0 absolute w-full h-full"></div>
         <div class="text-center relative z-10">
             <h2 class="text-white text-[70px] leading-[80px] 920px:text-6xl 770px:text-4xl 510px:text-3xl 400px:text-xl">
-                <strong class="link text-primary">65 Megawatt
+                <strong class="link text-primary">65 MWP
                     <br></strong>
-                Solarprojekt in Deutschland</h2>
+                Solarprojekt in Deutschland
+            </h2>
             <p class="text-white font-semibold">GFC EUROPEs größtes 65-Megawatt-Projekt auf dem großen Freiland in
-                Deutschland</p>
+                Deutschland. <br> Es gibt insgesamt 209 Wechselrichter, 8 Transformatoren, 1.450 Modultische und 113.000
+                Module.</p>
         </div>
     </section>
 

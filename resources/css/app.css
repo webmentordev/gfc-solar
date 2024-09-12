@@ -4,7 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
     font-family: "Moderustic", sans-serif;
 }
 
@@ -23,22 +23,42 @@
     src: url('../fonts/gendy.otf');
 }
 
+@font-face {
+    font-family: 'impact';
+    src: url('../fonts/impact.ttf');
+}
 
-h1, h2, h3, h4, button, .link, strong{
+
+@font-face {
+    font-family: 'greycliff';
+    src: url('../fonts/greycliff.otf');
+}
+
+h1,
+h2,
+h3,
+h4,
+button,
+.link,
+strong {
     font-family: 'gunterz-black';
     @apply font-semibold;
 }
 
-.imprint-heading, .imprint h1, .imprint h2,.imprint h3,.imprint h4{
+.imprint-heading,
+.imprint h1,
+.imprint h2,
+.imprint h3,
+.imprint h4 {
     font-family: 'gendy';
 }
 
 
-.header{
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,0.9374124649859944) 0%, rgba(0,0,0,0) 100%);
+.header {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9374124649859944) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
-.images img{
+.images img {
     @apply w-full h-full object-cover hover:scale-125 transition-all rounded-sm;
 }

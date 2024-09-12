@@ -4,10 +4,9 @@
             GFC EUROPE
         </a>
         <ul class="flex items-center font-semibold 1080px:hidden">
-            <a href="{{ route('home') }}#team"
+            <a href="{{ route('home') }}"
                 class="px-5 @if (request()->routeIs('home')) text-dark @else text-gray-500 @endif">Startseite</a>
-            <a href="{{ route('home') }}#uberuns"
-                class="px-5 @if (request()->routeIs('home')) text-dark @else text-gray-500 @endif">Über
+            <a href="{{ route('home') }}#uberuns" class="px-5 text-gray-500">Über
                 uns</a>
             <div class="flex items-center relative px-5 group">
                 <a href="{{ route('home') }}#projekte"
@@ -17,13 +16,13 @@
                 <div
                     class="absolute w-[200px] py-3 shadow-lg bg-white rounded-lg top-5 right-0 border border-gray-100 hidden group-hover:block">
                     <ul class="flex flex-col">
-                        <a href="{{ route('50-mw') }}" class="p-3 border-b border-gray-100 text-gray-500">50MW
+                        <a href="{{ route('58-mwp') }}" class="p-3 border-b border-gray-100 text-gray-500">58MWP
                             Projekte</a>
-                        <a href="{{ route('65-mw') }}" class="p-3 border-b border-gray-100 text-gray-500">60MW
+                        <a href="{{ route('65-mwp') }}" class="p-3 border-b border-gray-100 text-gray-500">60MWP
                             Projekte</a>
-                        <a href="{{ route('730-kw') }}" class="p-3 border-b border-gray-100 text-gray-500">730KW
+                        <a href="{{ route('727-kwp') }}" class="p-3 border-b border-gray-100 text-gray-500">727KWP
                             Projekte</a>
-                        <a href="{{ route('750-kw') }}" class="p-3 text-gray-500">750KW Projekte</a>
+                        <a href="{{ route('761-kwp') }}" class="p-3 text-gray-500">761KWP Projekte</a>
                     </ul>
                 </div>
             </div>
@@ -40,10 +39,23 @@
             <img src="https://api.iconify.design/gravity-ui:bars-descending-align-right.svg?color=%23212121"
                 alt="Align Logo" width="35" class="cursor-pointer" x-on:click="open = !open">
             <ul class="w-[200px] bg-white rounded-lg p-2 font-semibold absolute top-8 right-0 flex flex-col border border-gray-100 shadow-xl"
-                x-show="open">
+                x-show="open" x-cloak x-transition>
                 <a class="mb-1 p-2 border-b border-gray-100" href="{{ route('home') }}">Startseite</a>
                 <a class="mb-1 p-2 border-b border-gray-100" href="{{ route('home') }}#uberuns">Über uns</a>
                 <a class="mb-1 p-2 border-b border-gray-100" href="{{ route('home') }}#projekte">Projekte</a>
+                <li class="ml-2 mb-2"><a href="{{ route('58-mwp') }}" class="flex items-center">
+                        <img src="https://api.iconify.design/material-symbols:chevron-right-rounded.svg?color=%2319191a"
+                            alt=""> <span class="ml-1">58 MWP</span></a></li>
+                <li class="ml-2 mb-2"><a href="{{ route('65-mwp') }}" class="flex items-center">
+                        <img src="https://api.iconify.design/material-symbols:chevron-right-rounded.svg?color=%2319191a"
+                            alt=""> <span class="ml-1">65 MWP</span></a></li>
+                <li class="ml-2 mb-2"><a href="{{ route('727-kwp') }}" class="flex items-center">
+                        <img src="https://api.iconify.design/material-symbols:chevron-right-rounded.svg?color=%2319191a"
+                            alt=""> <span class="ml-1">727 KWP</span></a></li>
+                <li class="ml-2 mb-2"><a href="{{ route('761-kwp') }}" class="flex items-center">
+                        <img src="https://api.iconify.design/material-symbols:chevron-right-rounded.svg?color=%2319191a"
+                            alt=""> <span class="ml-1">761 KWP</span></a></li>
+
                 <a class="mb-1 p-2 border-b border-gray-100"
                     href="{{ route('home') }}#dienstleistungen">Dienstleistungen</a>
                 <a class="mb-1 p-2 border-b border-gray-100" href="{{ route('home') }}#team">Team</a>

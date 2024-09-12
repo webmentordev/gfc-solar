@@ -1,8 +1,8 @@
 @extends('layouts.app')
 @section('content')
-    <section class="w-full px-6">
+    <section class="w-full px-4">
         <div class="bg-center bg-cover h-[800px] rounded-xl overflow-hidden relative"
-            style="background-image: url({{ asset('assets/solar-panels-germany-installation.jpg') }})">
+            style="background-image: url({{ asset('assets/projects/50-MW/19.png') }})">
             <div class="header top-0 left-0 absolute w-full h-full"></div>
             <div class="max-w-7xl m-auto px-4 py-6 relative z-10 flex flex-col justify-center h-[670px]">
                 <div class="w-full" data-aos="fade-up" data-aos-duration="1000">
@@ -40,10 +40,11 @@
         </div>
     </section>
 
-    <section class="w-full py-[60px] px-6" id="uberuns">
-        <div class="max-w-[90%] m-auto grid grid-cols-2 gap-6">
+
+    <section class="w-full py-[60px] px-4" id="uberuns">
+        <div class="max-w-[90%] w-full m-auto grid grid-cols-2 gap-6 1080px:grid-cols-1">
             <div class="w-full">
-                <h2 class="text-dark text-4xl mb-4">Warum GFC Europe
+                <h2 class="text-dark text-4xl mb-4 510px:text-2xl">Warum GFC Europe
                     <strong class="link text-primary">wählen?</strong>
                 </h2>
                 <ul class="ml-7 list-disc">
@@ -69,16 +70,92 @@
     </section>
 
 
-    <section class="w-full py-[60px] px-6">
-        <div class="max-w-[90%] m-auto">
-            <h2 class="text-dark text-[70px] leading-[80px]">Umweltfreundliche <br> Energie durch <br><strong
-                    class="link text-primary">Solarpanels.</strong></h2>
+    <section class="w-full py-[60px] px-4" id="projekte">
+        <div class="max-w-[95%] m-auto w-full 650px:max-w-lg">
+            <h2 class="text-dark text-4xl mb-4">GFC Europe
+                <strong class="link text-primary">projekte</strong>
+            </h2>
+            <div class="grid grid-cols-4 gap-6 w-full 1240px:grid-cols-3 960px:grid-cols-2 650px:grid-cols-1">
+                <a href="{{ route('58-mwp') }}"
+                    class="w-full bg-center bg-cover flex items-end h-[550px] rounded-md relative group overflow-hidden"
+                    style="background-image: url({{ asset('assets/58-mwp.png') }})">
+                    <span
+                        class="absolute header top-0 left-0 h-full w-full group-hover:translate-y-[100%] transition-all"></span>
+                    <div class="p-6 text-white z-10 relative">
+                        <h3 class="mb-3 text-xl">58 MWP Projekte</h3>
+                        <ul>
+                            <li class="mb-1">Anzahl der Wechselrichter: 186</li>
+                            <li class="mb-1">Anzahl der Transformatoren: 7</li>
+                            <li class="mb-1">Anzahl der Modultische: 1300</li>
+                            <li>Anzahl der Module: 101.712</li>
+                        </ul>
+                    </div>
+                </a>
+                <a href="{{ route('65-mwp') }}"
+                    class="w-full bg-center bg-cover flex items-end h-[550px] rounded-md relative group overflow-hidden"
+                    style="background-image: url({{ asset('assets/65-mwp.png') }})">
+                    <span
+                        class="absolute header top-0 left-0 h-full w-full group-hover:translate-y-[100%] transition-all"></span>
+                    <div class="p-6 text-white z-10 relative">
+                        <h3 class="mb-3 text-xl">65 MWP Projekte</h3>
+                        <ul>
+                            <li class="mb-1">Anzahl der Wechselrichter: 209</li>
+                            <li class="mb-1">Anzahl der Transformatoren: 8</li>
+                            <li class="mb-1">Anzahl der Modultische: 1450</li>
+                            <li>Anzahl der Module: 113.000</li>
+                        </ul>
+                    </div>
+                </a>
+
+
+
+                <a href="{{ route('727-kwp') }}"
+                    class="w-full bg-center bg-cover flex items-end h-[550px] rounded-md relative group overflow-hidden"
+                    style="background-image: url({{ asset('assets/727-kwp.png') }})">
+                    <span
+                        class="absolute header top-0 left-0 h-full w-full group-hover:translate-y-[100%] transition-all"></span>
+                    <div class="p-6 text-white z-10 relative">
+                        <h3 class="mb-3 text-xl">727 KWP Projekte</h3>
+                        <ul>
+                            <li class="mb-1">Anzahl der Wechselrichter: 10</li>
+                            <li class="mb-1">Anzahl der Transformatoren: 1</li>
+                            <li>Anzahl der Modultische: 1709</li>
+                        </ul>
+                    </div>
+                </a>
+
+
+                <a href="{{ route('761-kwp') }}"
+                    class="w-full bg-center bg-cover flex items-end h-[550px] rounded-md relative group overflow-hidden"
+                    style="background-image: url({{ asset('assets/761-kwp.jpg') }})">
+                    <span
+                        class="absolute header top-0 left-0 h-full w-full group-hover:translate-y-[100%] transition-all"></span>
+                    <div class="p-6 text-white z-10 relative">
+                        <h3 class="mb-3 text-xl">761 KWP Projekte</h3>
+                        <ul>
+                            <li class="mb-1">Anzahl der Wechselrichter: 11</li>
+                            <li class="mb-1">Anzahl der Transformatoren: 1</li>
+                            <li>Anzahl der Modultische: 1856</li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
         </div>
     </section>
 
-    <section class="w-full py-[60px] px-6 bg-gray-50 border-t border-gray-100" id="dienstleistungen">
+
+    <section class="w-full py-[60px] px-4">
         <div class="max-w-[90%] m-auto">
-            <div class="grid grid-cols-3 gap-7">
+            <h2 class="text-dark text-[70px] leading-[80px] 1160px:text-5xl 770px:text-3xl">Umweltfreundliche <br> Energie
+                durch
+                <br><strong class="link text-primary">Solarpanels.</strong>
+            </h2>
+        </div>
+    </section>
+
+    <section class="w-full py-[60px] px-4 bg-gray-50 border-t border-gray-100" id="dienstleistungen">
+        <div class="max-w-[90%] m-auto">
+            <div class="grid grid-cols-3 gap-7 1160px:grid-cols-2">
                 <div class="p-6 col-span-2">
                     <h2 class="text-dark text-3xl mb-4">Unsere <strong class="link text-primary">Dienstleistungen</strong>
                     </h2>
@@ -117,7 +194,8 @@
                         <div class="flex">
                             <div
                                 class="w-[110px] h-[80px] rounded-full flex mr-6 items-center justify-center bg-primary/10">
-                                <img src="{{ asset('assets/icons/blueprint.png') }}" alt="Design & Planung" width="30">
+                                <img src="{{ asset('assets/icons/blueprint.png') }}" alt="Design & Planung"
+                                    width="30">
                             </div>
                             <div class="flex flex-col pt-1">
                                 <span class="font-semibold">Design & Planung:</span>
@@ -186,7 +264,7 @@
     </section>
 
 
-    <section class="w-full p-6">
+    <section class="w-full py-6 px-4">
         <div class="max-w-[80%] m-auto grid grid-cols-3 gap-6">
             <div class="w-full border-r border-gray-100 py-12 px-12">
                 <h3 class="mb-4">Umweltfreundlich</h3>
@@ -207,39 +285,63 @@
         </div>
     </section>
 
-    <section class="w-full py-[60px] px-6 bg-gray-50 border-t border-gray-100" id="team">
-        <h2 class="text-[70px] leading-[80px] relative z-10 text-center mb-4">
-            Unsere <strong class="link text-primary">Teammitglieder<br></strong>
-        </h2>
-        <div class="max-w-[60%] m-auto grid grid-cols-3 gap-8">
-            <div class="hover:scale-110 transition-all w-full border-r border-gray-100 py-12 px-12 h-[500px] bg-cover bg-center relative rounded-xl overflow-hidden"
-                style="background-image: url('{{ asset('assets/team/2ef0bdf1-4a84-42dd-b073-f6c2fbc15ccd.jfif') }}')">
-                <div class="absolute bottom-0 left-0 p-4 bg-black/60 backdrop-blur-sm w-full">
-                    <div class="flex flex-col text-white">
-                        <span class="text-2xl font-semibold">Celal Ipek</span>
-                        <span>Projektleiter</span>
+    <section class="w-full py-[60px] px-4 bg-gray-50 border-t border-gray-100" id="team">
+        <div class="max-w-4xl m-auto w-full">
+            <h2 class="text-[60px] leading-[80px] relative z-10 text-center mb-4">
+                Unsere <strong class="link text-primary">Teammitglieder<br></strong>
+            </h2>
+            <div class="grid grid-cols-3 gap-6">
+                <div class="w-full">
+                    <img src="{{ asset('assets/team/2ef0bdf1-4a84-42dd-b073-f6c2fbc15ccd.jfif') }}"
+                        class="w-full h-[300px] object-cover rounded-md">
+                    <div class="p-2">
+                        <div class="flex flex-col">
+                            <span class="text-lg font-semibold">Celal Ipek</span>
+                            <span>Projektleiter</span>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="hover:scale-110 transition-all w-full border-r border-gray-100 py-12 px-12 h-[500px] bg-cover bg-center relative rounded-xl overflow-hidden"
-                style="background-image: url('{{ asset('assets/team/5d8d257d-310f-4b6b-8d77-f967ad4e7f50.jfif') }}')">
-                <div class="absolute bottom-0 left-0 p-4 bg-black/60 backdrop-blur-sm w-full">
-                    <div class="flex flex-col text-white">
-                        <span class="text-2xl font-semibold">Aamir Shaheen</span>
-                        <span>Geschäftsführer</span>
+                <div class="w-full">
+                    <img src="{{ asset('assets/team/5d8d257d-310f-4b6b-8d77-f967ad4e7f50.jfif') }}"
+                        class="w-full h-[300px] object-cover rounded-md">
+                    <div class="p-2">
+                        <div class="flex flex-col">
+                            <span class="text-lg font-semibold">Aamir Shaheen</span>
+                            <span>Geschäftsführer</span>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="hover:scale-110 transition-all w-full border-r border-gray-100 py-12 px-12 h-[500px] bg-cover bg-center relative rounded-xl overflow-hidden"
-                style="background-image: url('{{ asset('assets/team/ahmer.jfif') }}')">
-                <div class="absolute bottom-0 left-0 p-4 bg-black/60 backdrop-blur-sm w-full">
-                    <div class="flex flex-col text-white">
-                        <span class="text-2xl font-semibold">Ahmer Tahir</span>
-                        <span>Digital-Marketing-Manager</span>
+                <div class="w-full">
+                    <img src="{{ asset('assets/team/ahmer.png') }}" class="w-full h-[300px] object-cover rounded-md">
+                    <div class="p-2">
+                        <div class="flex flex-col">
+                            <span class="text-lg font-semibold">Ahmer Tahir</span>
+                            <span>Digital-Marketing-Manager</span>
+                        </div>
                     </div>
                 </div>
+
+                {{-- <div class="hover:scale-110 transition-all w-full border-r border-gray-100 py-12 px-12 bg-cover bg-center relative rounded-xl overflow-hidden"
+                    style="background-image: url('{{ asset('assets/team/5d8d257d-310f-4b6b-8d77-f967ad4e7f50.jfif') }}')">
+                    <div class="absolute bottom-0 left-0 p-2 bg-black/60 backdrop-blur-sm w-full">
+                        <div class="flex flex-col text-white">
+                            <span class="text-lg font-semibold">Aamir Shaheen</span>
+                            <span>Geschäftsführer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hover:scale-110 transition-all w-full border-r border-gray-100 py-12 px-12 h-[300px] bg-cover bg-center relative rounded-xl overflow-hidden"
+                    style="background-image: url('{{ asset('assets/team/ahmer.jfif') }}')">
+                    <div class="absolute bottom-0 left-0 p-2 bg-black/60 backdrop-blur-sm w-full">
+                        <div class="flex flex-col text-white">
+                            <span class="text-lg font-semibold">Ahmer Tahir</span>
+                            <span>Digital-Marketing-Manager</span>
+                        </div>
+                    </div>
+                </div> --}}
             </div>
         </div>
     </section>

@@ -8,11 +8,17 @@ export default {
     theme: {
         extend: {
             screens: {
+                "1240px": {
+                    max: "1240px",
+                },
                 "1160px": {
                     max: "1160px",
                 },
                 "1080px": {
                     max: "1080px",
+                },
+                "960px": {
+                    max: "960px",
                 },
                 "920px": {
                     max: "920px",
